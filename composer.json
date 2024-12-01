@@ -1,0 +1,21 @@
+{
+    "name": "ademcan/dinamik_qr",
+    "description": "A dynamic QR code generator with PHP and MySQL.",
+    "type": "library",
+    "require": {
+        "endroid/qr-code": "^5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ademcan\\DinamikQr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adem Can",
+            "email": "ademcan@example.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
